@@ -8,4 +8,4 @@ def hello_gcs(event, context):
     """
     file = event
     print(f"Processing file: {file['name']}.")
-    anchor.move_file();
+    anchor.move_file(event['bucket'], event['name']);
