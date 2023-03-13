@@ -8,4 +8,4 @@ def hello_gcs(event, context):
     """
     file = event
     print(f"Processing file: {file['name']}.")
-    anchor.quicktext();
+    anchor.move_file();
