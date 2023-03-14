@@ -1,4 +1,3 @@
-
 def hello_gcs(event, context):
     import anchor
     """Triggered by a change to a Cloud Storage bucket.
